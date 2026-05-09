@@ -1,0 +1,3 @@
+curl -X POST https://rmg5twjtsk.execute-api.us-east-1.amazonaws.com/predict  \
+  -H "Content-Type: application/json" \
+  -d '{"text": "MLOps is amazing!"}'
